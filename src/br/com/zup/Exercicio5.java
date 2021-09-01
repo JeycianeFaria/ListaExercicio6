@@ -1,2 +1,30 @@
-package br.com.zup;public class Exercicio5 {
+package br.com.zup;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+
+    public static void main(String[] args) {
+
+        Scanner leitor = new Scanner(System.in);
+
+        //variaveis
+        int numeroInteiro;
+        int contador;
+
+        //Recebendo valor do usúario
+        System.out.println("Por favor digite um numero inteiro");
+        numeroInteiro = leitor.nextInt();
+
+        //Estrutura de Repetição
+        for (contador = 0; contador <= 100; contador++){
+
+            System.out.println(numeroInteiro);
+
+            numeroInteiro += 1000;
+
+        }
+
+    }
+
 }
