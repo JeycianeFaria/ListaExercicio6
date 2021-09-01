@@ -9,12 +9,10 @@ public class Exercicio5 {
         Scanner leitor = new Scanner(System.in);
 
         //variaveis
-        int numeroInteiro;
+        int numeroInteiro = 0;
         int contador;
 
-        //Recebendo valor do usúario
-        System.out.println("Por favor digite um numero inteiro");
-        numeroInteiro = leitor.nextInt();
+
 
         //Estrutura de Repetição
         for (contador = 0; contador <= 100; contador++){

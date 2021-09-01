@@ -25,7 +25,7 @@ public class ExercicioLevelUp {
 
         //Verificar se o valor digitado é valido - Estrutura de Decisão
 
-        if (valorFinal > valorInicial) {
+        if (valorFinal >= valorInicial) {
 
             //Estrutura de Repetição
             while (contador <= valorFinal) {
@@ -33,8 +33,6 @@ public class ExercicioLevelUp {
                 if (contador % 2 != 0) {
 
                     somaNumerosImpares += contador;
-
-                    System.out.println(somaNumerosImpares);
 
                 }
 
